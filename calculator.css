@@ -1,0 +1,176 @@
+/*HW5_calculator of web2.0, qiangbo_14331229,group 11*/
+/*the .css of the calculator*/
+
+	body { 
+		font-size:12px; 
+		font-family:Arial, Georgia, serif; 
+		color:gray; 
+		text-align:center; 
+		background-color:#e2e2e2;
+	}
+
+	h7{ 
+		margin:0; 
+		font-size:18px; 
+	} 
+
+	/*the calcutor_box*/
+	#calculator { 
+		width:358px; 
+		height:auto; 
+		overflow:hidden; 
+		margin:10px auto; 
+		border:#ee2ee solid; 
+		border-width:0px 18px 0px 18px;
+		border-radius: 8%;
+		border-style:double;
+		padding-bottom:10px; 
+		background-color:black; 
+	} 
+
+	#calculator div { 
+		clear:both; 
+	} 
+
+	#calcu-head { 
+		text-align:left; 
+		padding:10px 15px 5px; 
+	} 
+
+	span.w3c { 
+		float:right; 
+		color:#ccc; 
+	} 
+	span.w3c a{ 
+		color:#ccc; 
+	}
+
+	#calculator ul{ 
+		padding:0; 
+		margin:5px 14px; 
+		border:#fff 2px solid;
+	  	border-radius: 6%;
+		color:blue;
+		height:auto; 
+		overflow:hidden;
+	} 
+
+	#calculator li{ 
+		list-style:none; 
+		float:left; 
+		width:55px; 
+		height:55px; 
+		margin:5px; 
+		display:inline; 
+		line-height:50px; 
+		font-size:20px; 
+		background-color:#b0e2ff;
+		border-radius: 20%;
+	} 
+
+	/*tool of the calculator*/
+	#calculator li.tool{ 
+		background-color:#e2ffe2; 
+	} 
+
+	#calculator li.tool1{ 
+		background-color:#ff0000; 
+	} 
+
+
+	#calculator li.tool2{ 
+		background-color:#00b2ee; 
+	} 
+
+
+	#calculator li:hover{ 
+		background-color:#ffd700; 
+		cursor:pointer; 
+	} 
+
+	#ca_bottom {
+		padding:0; 
+		margin:5px 14px; 
+		border:#fff 2px solid;
+		border-radius: 6%;
+		color:blue;
+		height:auto; 
+		overflow:hidden;
+	}
+
+	/*the 0 bottom*/
+	.zero {
+		list-style:none; 
+		float:left; 
+		width:120px; 
+		height:55px; 
+		margin:5px; 
+		display:inline; 
+		line-height:50px; 
+		font-size:20px; 
+		background-color:#b0e2ff;
+		border-radius: 15%;
+	}
+
+	.zero:hover {
+	  	background-color:#ffd700; 
+	  	cursor:pointer; 
+	}
+
+	/*the = bottom*/ 
+	.queal {
+		list-style:none; 
+		float:right; 
+		width:185px; 
+		height:55px; 
+		margin:5px; 
+		display:inline; 
+		line-height:50px; 
+		font-size:80px; 
+		background-color:#b99999;
+		border-radius: 10%;
+	}
+
+	.queal:hover {
+	  	background-color:#00ff00; 
+	  	cursor:pointer; 
+	}
+
+	.css_screen{ 
+		width:315px; 
+		height:54px; 
+		line-height:24px; 
+		padding:4px; 
+		border:#e6e6e6 1px solid;
+		border-radius:;
+		border-bottom:#f2f2f2 1px solid; 
+		border-right:#f2f2f2 1px solid; 
+		margin:10px auto; 
+		direction:ltr; 
+		text-align:right; 
+		font-size:32pt; 
+		color:black;
+		background-color:white;
+	} 
+
+	#calcu-foot{ 
+		text-align:left; 
+		padding:10px 15px 5px; 
+		height:auto; 
+		overflow:hidden; 
+	} 
+	span#note{ 
+		float:left; 
+		width:210px; 
+		height:auto; 
+		overflow:hidden; 
+		color:red; 
+	} 
+	span.welcome{ 
+		clear:both; 
+		color:#999; 
+	} 
+	span.welcome a{ 
+		float:right; 
+		color:#999; 
+	} 
